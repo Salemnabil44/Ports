@@ -1,0 +1,44 @@
+
+Voici une liste des ports les plus couramment utilisés, leurs numéros, et les services qui leur sont associés :
+
+Ports Bien Connus (0 à 1023)
+Port 20 : FTP (File Transfer Protocol) - Données
+Port 21 : FTP (File Transfer Protocol) - Commande
+Port 22 : SSH (Secure Shell)
+Port 23 : Telnet
+Port 25 : SMTP (Simple Mail Transfer Protocol)
+Port 53 : DNS (Domain Name System)
+Port 67 : DHCP (Dynamic Host Configuration Protocol) - Serveur
+Port 68 : DHCP (Dynamic Host Configuration Protocol) - Client
+Port 80 : HTTP (Hypertext Transfer Protocol)
+Port 110 : POP3 (Post Office Protocol v3)
+Port 119 : NNTP (Network News Transfer Protocol)
+Port 123 : NTP (Network Time Protocol)
+Port 143 : IMAP (Internet Message Access Protocol)
+Port 161 : SNMP (Simple Network Management Protocol)
+Port 194 : IRC (Internet Relay Chat)
+Port 443 : HTTPS (Hypertext Transfer Protocol Secure)
+Port 465 : SMTPS (Simple Mail Transfer Protocol Secure)
+Port 587 : SMTP (Submission)
+Port 993 : IMAPS (Internet Message Access Protocol Secure)
+Port 995 : POP3S (Post Office Protocol Secure)
+Ports Enregistrés (1024 à 49151)
+Port 1433 : Microsoft SQL Server
+Port 1434 : Microsoft SQL Monitor
+Port 1723 : PPTP (Point-to-Point Tunneling Protocol)
+Port 3306 : MySQL
+Port 3389 : RDP (Remote Desktop Protocol)
+Port 5432 : PostgreSQL
+Port 5900 : VNC (Virtual Network Computing)
+Port 6379 : Redis
+Port 8080 : HTTP Proxy (alternative au port 80)
+Port 8443 : HTTPS (alternative au port 443)
+Port 9418 : Git
+Ports Dynamiques et/ou Privés (49152 à 65535)
+Ces ports sont généralement utilisés pour les connexions éphémères (temporairement) par les clients lorsqu'ils se connectent aux serveurs. Ils sont rarement associés à des services fixes et sont souvent attribués de manière dynamique par le système d'exploitation.
+
+Notes Importantes
+Ports ouverts : Les services écoutant sur ces ports peuvent varier en fonction des configurations spécifiques du système.
+Sécurité : Maintenir des ports inutilisés fermés est une bonne pratique de sécurité pour réduire la surface d'attaque potentielle.
+Pare-feu : Utiliser des règles de pare-feu (iptables, nftables, etc.) pour contrôler l'accès aux ports.
+Voici une liste succincte des ports couramment utilisés. Cette liste peut servir de référence pour la configuration de pare-feu ou la gestion des services réseau.
